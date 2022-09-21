@@ -42,8 +42,8 @@ public class AlunoController {
         return alunoRepository.findById(ra);
     }
     
-    @CrossOrigin
-    @PostMapping("/inserirAluno")
+    //@CrossOrigin
+    @PostMapping(value = "/inserirAluno")
     public void inserirAlunos (@RequestBody Aluno aluno)
     {
         alunoRepository.save(aluno);
