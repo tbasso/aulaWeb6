@@ -17,7 +17,7 @@ import javax.persistence.Table;
  * @author taniabasso
  */
 @Entity
-@Table
+@Table (name="AlunoWEB")
 public class Aluno {
     
     @Id
